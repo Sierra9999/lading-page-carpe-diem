@@ -20,3 +20,33 @@
   position: absolute;
   z-index: 2;
 }
+
+.services {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(1, auto);
+}
+
+@media (min-width: 600px){
+  .services {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat( 2,auto);
+  }
+}
+
+@media (min-width: 800px){
+  .services {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat( 3, auto);
+  }
+}
+
+@media (min-width: 1000px){
+  .services {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat( 4, auto);
+  }
+}
