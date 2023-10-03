@@ -1,0 +1,22 @@
+.division {
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-cta {
+  position: absolute;
+  z-index: 2;
+}
