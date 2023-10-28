@@ -1,26 +1,65 @@
+:root {
+  --main-color: #FF7201;
+  --white: #f5f5f5;;
+}
+
 .division {
   height: 100vh;
   width: 100vw;
-
 }
 
-.hero-section {
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.hero-section img {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+  color: rgb(243, 243, 243);
+  text-align: center;
+  background-image: url('../../public/hero-large.jpg');
+  background-position: center;
 }
 
 .hero-cta {
   position: absolute;
   z-index: 2;
+  top: 15%;
+  width: 50%;
 }
 
+.hero-cta-title{
+  font-size: 7vw;
+}
+.hero-cta-description{
+  font-size: 2vw;
+}
+
+.newsletter {
+  margin-top: 20px;
+}
+
+.newsletter button {
+  background-color: var(--main-color);
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 3.5rem;
+}
+.newsletter input[type="email"] {
+  height: 35px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: none;
+  margin-right:30px;
+}
+
+.newsletter input[type="email"]:focus {
+  outline: none;
+}
+
+.newsletter-form {
+  margin-top: 30px;
+}
 .services {
   display: grid;
   padding: 20px;
